@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EC1BD72E226EF092005CF89F /* FDBaseRACAfterVM.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1BD71F226EF091005CF89F /* FDBaseRACAfterVM.m */; };
+		EC1BD72F226EF092005CF89F /* FDBaseRACPageVM.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1BD723226EF092005CF89F /* FDBaseRACPageVM.m */; };
+		EC1BD730226EF092005CF89F /* FDBaseRACVM.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1BD724226EF092005CF89F /* FDBaseRACVM.m */; };
+		EC1BD731226EF092005CF89F /* FDBaseScrollVM.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1BD725226EF092005CF89F /* FDBaseScrollVM.m */; };
+		EC1BD732226EF092005CF89F /* FDTableBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1BD727226EF092005CF89F /* FDTableBaseViewController.m */; };
+		EC1BD734226EF092005CF89F /* FDCollectionBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC1BD729226EF092005CF89F /* FDCollectionBaseController.m */; };
 		EC8375A82265639800874603 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8375A72265639800874603 /* AppDelegate.m */; };
 		EC8375AB2265639800874603 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC8375AA2265639800874603 /* ViewController.m */; };
 		EC8375AE2265639800874603 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC8375AC2265639800874603 /* Main.storyboard */; };
@@ -22,6 +28,18 @@
 		1782D14E681E4181FB94CC37 /* Pods-RACProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACProject.release.xcconfig"; path = "Target Support Files/Pods-RACProject/Pods-RACProject.release.xcconfig"; sourceTree = "<group>"; };
 		9B3993B2E8D0B4059C36E210 /* Pods-RACProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RACProject.debug.xcconfig"; path = "Target Support Files/Pods-RACProject/Pods-RACProject.debug.xcconfig"; sourceTree = "<group>"; };
 		A07FAB2695740DBA1FB9918F /* libPods-RACProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RACProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1BD71E226EF091005CF89F /* FDBaseRACPageVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseRACPageVM.h; sourceTree = "<group>"; };
+		EC1BD71F226EF091005CF89F /* FDBaseRACAfterVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseRACAfterVM.m; sourceTree = "<group>"; };
+		EC1BD720226EF091005CF89F /* FDBaseRACVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseRACVM.h; sourceTree = "<group>"; };
+		EC1BD721226EF091005CF89F /* FDBaseScrollVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseScrollVM.h; sourceTree = "<group>"; };
+		EC1BD722226EF092005CF89F /* FDBaseRACAfterVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDBaseRACAfterVM.h; sourceTree = "<group>"; };
+		EC1BD723226EF092005CF89F /* FDBaseRACPageVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseRACPageVM.m; sourceTree = "<group>"; };
+		EC1BD724226EF092005CF89F /* FDBaseRACVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseRACVM.m; sourceTree = "<group>"; };
+		EC1BD725226EF092005CF89F /* FDBaseScrollVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDBaseScrollVM.m; sourceTree = "<group>"; };
+		EC1BD727226EF092005CF89F /* FDTableBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDTableBaseViewController.m; sourceTree = "<group>"; };
+		EC1BD729226EF092005CF89F /* FDCollectionBaseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FDCollectionBaseController.m; sourceTree = "<group>"; };
+		EC1BD72A226EF092005CF89F /* FDTableBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDTableBaseViewController.h; sourceTree = "<group>"; };
+		EC1BD72B226EF092005CF89F /* FDCollectionBaseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FDCollectionBaseController.h; sourceTree = "<group>"; };
 		EC8375A32265639800874603 /* RACProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RACProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC8375A62265639800874603 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC8375A72265639800874603 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +85,41 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		EC1BD71B226EF091005CF89F /* RACBase */ = {
+			isa = PBXGroup;
+			children = (
+				EC1BD71D226EF091005CF89F /* VM */,
+				EC1BD726226EF092005CF89F /* VC */,
+			);
+			path = RACBase;
+			sourceTree = SOURCE_ROOT;
+		};
+		EC1BD71D226EF091005CF89F /* VM */ = {
+			isa = PBXGroup;
+			children = (
+				EC1BD722226EF092005CF89F /* FDBaseRACAfterVM.h */,
+				EC1BD71F226EF091005CF89F /* FDBaseRACAfterVM.m */,
+				EC1BD721226EF091005CF89F /* FDBaseScrollVM.h */,
+				EC1BD725226EF092005CF89F /* FDBaseScrollVM.m */,
+				EC1BD71E226EF091005CF89F /* FDBaseRACPageVM.h */,
+				EC1BD723226EF092005CF89F /* FDBaseRACPageVM.m */,
+				EC1BD720226EF091005CF89F /* FDBaseRACVM.h */,
+				EC1BD724226EF092005CF89F /* FDBaseRACVM.m */,
+			);
+			path = VM;
+			sourceTree = "<group>";
+		};
+		EC1BD726226EF092005CF89F /* VC */ = {
+			isa = PBXGroup;
+			children = (
+				EC1BD727226EF092005CF89F /* FDTableBaseViewController.m */,
+				EC1BD729226EF092005CF89F /* FDCollectionBaseController.m */,
+				EC1BD72A226EF092005CF89F /* FDTableBaseViewController.h */,
+				EC1BD72B226EF092005CF89F /* FDCollectionBaseController.h */,
+			);
+			path = VC;
+			sourceTree = "<group>";
+		};
 		EC83759A2265639800874603 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +141,7 @@
 		EC8375A52265639800874603 /* RACProject */ = {
 			isa = PBXGroup;
 			children = (
+				EC1BD71B226EF091005CF89F /* RACBase */,
 				EC8375C02265700C00874603 /* Model */,
 				EC8375BC22656E0F00874603 /* VM */,
 				EC8375A62265639800874603 /* AppDelegate.h */,
@@ -132,6 +186,7 @@
 				EC83759F2265639800874603 /* Sources */,
 				EC8375A02265639800874603 /* Frameworks */,
 				EC8375A12265639800874603 /* Resources */,
+				D134F9F6C6583A5B4F1D96C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -210,6 +265,28 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		D134F9F6C6583A5B4F1D96C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RACProject/Pods-RACProject-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RACProject/Pods-RACProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -217,10 +294,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC1BD731226EF092005CF89F /* FDBaseScrollVM.m in Sources */,
+				EC1BD72F226EF092005CF89F /* FDBaseRACPageVM.m in Sources */,
+				EC1BD732226EF092005CF89F /* FDTableBaseViewController.m in Sources */,
 				EC8375AB2265639800874603 /* ViewController.m in Sources */,
 				EC8375B62265639B00874603 /* main.m in Sources */,
 				EC8375A82265639800874603 /* AppDelegate.m in Sources */,
+				EC1BD72E226EF092005CF89F /* FDBaseRACAfterVM.m in Sources */,
+				EC1BD734226EF092005CF89F /* FDCollectionBaseController.m in Sources */,
 				EC8375BF22656E2000874603 /* RACVM.m in Sources */,
+				EC1BD730226EF092005CF89F /* FDBaseRACVM.m in Sources */,
 				EC8375C32265701900874603 /* RACModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
